@@ -13,6 +13,16 @@ public class inputarr{
     System.out.println("marks of student 3 is: "+marks[2]);
     System.out.println("length of array="+marks.length);
 
+    int[] raja= new int[3];
+    for(int i=0;i<raja.length;i++){
+      raja[i]= sc.nextInt();
+    }
+    //print
+    for(int i=0;i<raja.length;i++){
+      System.out.println("the new array element is " + raja[i]);
+      System.out.println("the twice of the new array element is " + raja[i]*2+" ");
+    }
+
 
   }
 }
