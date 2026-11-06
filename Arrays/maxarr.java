@@ -17,7 +17,14 @@ public class maxarr {
         max = arr[i];
       }
     }
+    int min =arr[0];
+    for(int i=0;i<n;i++){
+      if(arr[i]<min){
+        min = arr[i];
+      }
+    }
     System.out.println("the max element is: "+max);
+    System.out.println("the min element is: "+min);
 
   }
 }
