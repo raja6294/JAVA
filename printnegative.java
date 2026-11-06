@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.Scanner;
 
 public class printnegative{
-  public static void main(String[] args) { 
+  public static void main(String[] args) {
   Scanner sc =new Scanner(System.in);
   System.out.print("enter array size");
   int n= sc.nextInt();
